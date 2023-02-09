@@ -2,6 +2,7 @@
 <h1>Landing Page DualShock PS4</h1>
 <p>
 <img src="https://i.imgur.com/OAKg5hE.png">
+<img src="https://i.imgur.com/4FFDoHS.png">
 <a href="https://raphacalixto.github.io/M-sica-Landing-page/">Confira aqui!</a> 
 <h3>Tecnologias Usadas</h3>
 <div class"img">
