@@ -20,7 +20,7 @@
                     <li><a class="links" href="">Suporte</a></li>
                 </ul>
             </nav>
-            <img src="menu.png" class="barras"alt="" onclick="showMenu()">
+            <img src="menu.png" class="menu-icons"alt="" onclick="showMenu()">
         </header>
         <main>
 
@@ -49,7 +49,7 @@
     </div>
     <script>
         const menuList = document.getElementById("menulist")
-        menuList.style.maxHeight = "0px" //quando a aplicação começar, ele não vai aparecer 
+        menuList.style.maxHeight = "0px"
 
         function showMenu(){
             if (menuList.style.maxHeight == "0px"){
@@ -58,10 +58,7 @@
             else {
                 menuList.style.maxHeight = "0px"
             }
-
-
         }
-
     </script>
 </body>   
 </html>
