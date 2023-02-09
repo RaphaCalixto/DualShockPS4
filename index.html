@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <title>Dualshock</title>
+</head>
+<body>
+    <div class="container">
+        <header class="navbar">
+            <img class="logo" src="logo.png">  
+            <nav>
+                <ul id="menulist">
+                    <li><a class="links" href="">Controles</a></li>
+                    <li><a class="links" href="">Acessórios</a></li>
+                    <li><a class="links" href="">Mídias Físicas</a></li>
+                    <li><a class="links" href="">Suporte</a></li>
+                </ul>
+            </nav>
+            <img src="menu.png" class="barras"alt="" onclick="showMenu()">
+        </header>
+        <main>
+
+            <div class="container-left">
+                <h1>PS4 DUALSHOCK</h1>
+                <h2>Controle sem fio</h2>
+                <p>Compatível com qualquer modelo PS4</p>
+                <h4>R$250</h4>
+                <button class="button-buy">Compre Agora<img src="arrow.png" ></button>
+            </div>
+            <div class="container-right">
+                <img class="controle" src="controller.png" >
+                <div class="box"></div>
+                <button class="add">
+                    <img src="add.png" >
+                </button>
+            </div>
+        </main>
+
+        <footer class="social-midia">
+            <a<img class="social-links"></a>
+            <a href="https://www.facebook.com/PlayStationBR/?locale=pt_BR"><img class="social-links" src="fb.png" ></a>
+            <a href="https://www.instagram.com/playstation/"><img class="social-links" src="ig.png" ></a>
+            <a href="https://twitter.com/PlayStation_BR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="social-links" src="tw.png" ></a> 
+        </footer>
+    </div>
+    <script>
+        const menuList = document.getElementById("menulist")
+        menuList.style.maxHeight = "0px" //quando a aplicação começar, ele não vai aparecer 
+
+        function showMenu(){
+            if (menuList.style.maxHeight == "0px"){
+                menuList.style.maxHeight = "120px"
+            }
+            else {
+                menuList.style.maxHeight = "0px"
+            }
+
+
+        }
+
+    </script>
+</body>   
+</html>
