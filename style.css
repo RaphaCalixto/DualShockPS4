@@ -167,6 +167,7 @@ h2{
 }
 .barras{
     width: 25px;
+    cursor: pointer;
 }
 @media screen and (max-width:1000px) {
 
